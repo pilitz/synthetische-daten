@@ -6,7 +6,7 @@
 
 % The thesis template is defined in its own document class.
 % Please see the zyx-directory for more details
-\documentclass[twoside,de]{./zyx/mythesis}
+\documentclass[oneside,de]{./zyx/mythesis}
 %% If you prefer one side per page use this instead of the previous line
 % \documentclass[oneside]{./zyx/mythesis}
 %% If you insist on writing your thesis in german add this option
@@ -24,13 +24,15 @@
 % Cover, abstract, table of contents, etc.
 \subfile{./zyx/preface.tex}
 
-% Put your chapters here
-\subfile{./txt/1-manual.tex}
 %% Add more chapters like this
-% \subfile{./txt/2-my-chapter.tex}
-
-%% If you want to write in markdown, include it like this
-\putMD{./txt/42-example.md}
+\subfile{./txt/1-einleitung.tex}
+\subfile{./txt/2-grundlagen.tex}
+\subfile{./txt/3-erstellung-synthetischer-daten.tex}
+\subfile{./txt/4-vorteile.tex}
+\subfile{./txt/5-herausforderungen.tex}
+\subfile{./txt/6-anwendungsfaelle.tex}
+\subfile{./txt/7-zukunft.tex}
+\subfile{./txt/8-fazit.tex}
 
 % Bibliography, list of tables, list of figures, etc.
 \subfile{./zyx/epilogue.tex}
